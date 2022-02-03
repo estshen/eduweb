@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lite</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./stylesheets/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./stylesheets/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./stylesheets/aos.css">
+
+    <!-- Link Stylesheets   -->
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/art.css">
+
+    <!-- JS library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+
+</head>
+
+<body>
+
+    <!------------------------------  Navigation ------------------------------------------------>
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="index.html" class="text-gray">Lite</a>
+            </div>
+            <!-- Responsive toggle collapse for when viewing on mobile devices -->
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <!-- Navigation items on the top right corner -->
+            <div>
+                <ul class="nav-items">
+                    <!-- Navigate to home page -->
+                    <li class="nav-link">
+                        <a href="Index.html">Home</a>
+                    </li>
+                   <!-- Navigate to cities page -->
+                    <li class="nav-link">
+                        <a href="cities.html">Cities</a>
+                    </li>
+                    <!-- Navigate to art page -->
+                    <li class="nav-link">
+                        <a href="art.html">Art</a>
+                    </li>
+                    <!-- Navigate to food page -->
+                    <li class="nav-link">
+                        <a href="food.html">Food</a>
+                    </li>
+                    <!-- Navigate to about page -->
+                    <li class="nav-link">
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--------------x---------------  Navigation --------------------------x--------------------->
+
+    <!------------------------------- Main section ------------------------------->
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title-art">
+            <!-- Banner and headings -->
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Ode to Freedom</h3>
+                <h1>Explore Things to See</h1>
+            </div>
+        </section>
+
+        <!------------x----------- Site Title ----------x----------->
+
+
+        <!------------------- Gallery section ------------------->
+
+        <div class="gallery-section">
+            <div class="inner-width">
+                <h1>House of Peace</h1>
+                <p>See our collection</p>
+                <p>Artists: Junya Ishigami, Cai Guo-Qiang, Tracey Emin, and more</p>
+                <!-- Photo gallery, with each photo has alt texts -->
+                <div class="gallery">
+        
+                    <a href="assets/gallery/1.JPG" class="image">
+                    <img src="assets/gallery/1.JPG" alt="abstract girl with red stockings">
+                    </a>
+        
+                    <a href="assets/gallery/2.jpg" class="image">
+                    <img src="assets/gallery/2.jpg" alt="volcanol erupts">
+                    </a>
+        
+                    <a href="assets/gallery/3.jpg" class="image">
+                    <img src="assets/gallery/3.jpg" alt="three pictures on a wall">
+                    </a>
+        
+                    <a href="assets/gallery/4.jpg" class="image">
+                    <img src="assets/gallery/4.jpg" alt="clouds">
+                    </a>
+        
+                    <a href="assets/gallery/5.jpg" class="image">
+                    <img src="assets/gallery/5.jpg" alt="abstract painting">
+                    </a>
+        
+                    <a href="assets/gallery/6.jpg" class="image">
+                    <img src="assets/gallery/6.jpg" alt="mirror on the wall">
+                    </a>
+        
+                    <a href="assets/gallery/7.jpg" class="image">
+                    <img src="assets/gallery/7.jpg" alt="curtain with rainbows">
+                    </a>
+        
+                    <a href="assets/gallery/8.jpg" class="image">
+                    <img src="assets/gallery/8.jpg" alt="abstract painting 2">
+                    </a>
+
+                    <a href="assets/gallery/9.jpg" class="image">
+                        <img src="assets/gallery/9.jpg" alt="project blue">
+                    </a>
+
+                    <a href="assets/gallery/10.jpg" class="image">
+                        <img src="assets/gallery/10.jpg" alt="three pictures on the wall broad view">
+                    </a>
+
+                    <a href="assets/gallery/11.jpg" class="image">
+                        <img src="assets/gallery/11.jpg" alt="woman in a car">
+                    </a>
+
+                    <a href="assets/gallery/12.jpg" class="image">
+                        <img src="assets/gallery/12.jpg" alt="yuan museum">
+                    </a>
+
+                    <a href="assets/gallery/13.jpg" class="image">
+                        <img src="assets/gallery/13.jpg" alt="abstract architecture">
+                    </a>
+
+                    <a href="assets/gallery/14.jpg" class="image">
+                        <img src="assets/gallery/14.jpg" alt="project blue closeup">
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Magnify images when hover -->
+        <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{
+            enabled: true
+            }
+        });
+        </script>
+        
+    <!------------------- End Gallery ------------------->
+
+    </main>
+    <!--------------x----------------- Main section ----------------x--------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+    <footer class="footer">
+        <div class="container">
+            <!-- (Left) About us section -->
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About Us</h2>
+                <p>Meet our team of highly experienced and well-trained professionals that are dedicated to the work we do</p>
+            </div>
+            <!-- (Middle Left) Newsletter section -->
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Subscribe to take a peek into our latest events</p>
+                <div class="form-element">
+                    <input type="text" placeholder="username@email.com"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <!-- (Middle Right) Social media section -->
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Social Media</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/ins1.JPG" alt="Sydney street during sunsets">
+                    <img src="./assets/instagram/ins2.JPG" alt="Desk with a watch, necklace, lipstick, and a bottle of perfume">
+                    <img src="./assets/instagram/ins3.JPG" alt="Street view of Starbucks Coffee">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/ins4.JPG" alt="Living room with antique sofa and cupboards">
+                    <img src="./assets/instagram/ins5.JPG" alt="Dinning table with flowers">
+                    <img src="./assets/instagram/ins6.JPG" alt="Front desk of a coffee shop">
+                </div>
+            </div>
+             <!-- (Right) Contact us section -->
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Contact Us</h2>
+                <p>We can’t wait to connect with you!</p>
+                <!-- Icons from Font Awesome (facebook, twitter, instagram, youtube) -->
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright sectoin -->
+        <div class="rights flex-row">
+            <h4>
+                Copyright ©2021 All Rights Reserved
+            </h4>
+        </div>
+    </footer>
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  --------------------------->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

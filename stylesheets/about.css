@@ -1,0 +1,173 @@
+main .site-title-about{
+    background: url('../assets/background-image-about.jpeg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title-about .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+main .site-title-about h1, h3{
+    margin: .3rem;
+}
+
+main .site-title-about .btn{
+    margin: 1.8rem;
+    background: #997b66;
+}
+
+main .site-title-about .btn:hover{
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+/* ----------------- About section --------------------- */
+
+.about-section{
+    background: url('../assets/about/about.JPG') no-repeat left;
+    background-size: 24%;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/* -------x---------- About section -----------x---------- */
+
+/* team section */
+.team-section{
+    height: 100vh;
+    display: flex;
+}
+
+.person{
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: .6s;
+}
+
+.person:hover{
+    flex: 3;
+}
+
+.person-pic{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: grayscale(80%);
+    transition: .3s;
+}
+
+.person:hover .person-pic{
+    filter: grayscale(0);
+}
+
+.person-info{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: .2s;
+}
+
+.person:hover .person-info{
+    opacity: 1;
+    bottom: 60px;
+    transition-delay: .6s;
+}
+
+.person-info h2{
+    font-size: 20px;
+    color: #fff;
+}
+
+.person-info p{
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.socialmedia a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #333;
+    background-color: var(--bg-color);
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 6px;
+    font-size: 18px;
+    transition: .3s linear;
+}
+
+.socialmedia a:hover{
+    color: var(--bg-color);
+    background-color: transparent;
+    transform: scale(1.5);
+}
+
+/* --x--- team section --x--- */
+
+/* ---------------------- Responsive settings --------------------------- */
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+/* ---------------x------- Responsive settings ----------------------x----- */
+

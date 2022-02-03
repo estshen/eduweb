@@ -1,0 +1,92 @@
+main .site-title-food{
+    background-size: cover;
+    background-color: #7d4f50;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title-food .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+main .site-title-food h1, h3{
+    margin: .3rem;
+}
+
+main .site-title-food .btn:hover{
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+/* ---------------------------------- Food page -------------------------------------- */
+  
+  .blog-posts{
+    width: min(1200px, 100%);
+    padding: 2rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+    align-items: center;
+    translate: 10%;
+  }
+  
+  .post{
+    width: calc(33% - 10px);
+    overflow: hidden;
+  }
+  
+  .post-img{
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+  }
+  
+  .food-post-content{
+    background-color: #ffffffdd;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translate(0.1%, -1%);
+    transition: .3s linear;
+    
+  }
+  
+  .food-post-contentt h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .date{
+    font-size: 15px;
+    color: #7d4f50;
+  }
+  
+  .post:hover .post-img{
+    transform: translateY(20px);
+  }
+  
+  .post:hover .food-post-content{
+    transform: translateY(-80px);
+  }
+  
+/* ---------------x------- Food page ----------------------x----- */
+
+
+/* ---------------------- Responsive settings --------------------------- */
+
+@media screen and (max-width: 1200px){
+    .blog-posts{
+      justify-content: center;
+    }
+    .post{
+      width: min(600px, 100%);
+    }
+  }
+
+/* -----------x----------- Responsive settings ----------------x----------- */
+

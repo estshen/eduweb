@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Bebas;
+    src: url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url('../fonts/Orbitron/Orbitron-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Ramabhadra;
+    src: url('../fonts/Ramabhadra/Ramabhadra-Regular.ttf');
+}
+
+@font-face {
+    font-family: Sourcecode;
+    src: url('../fonts/Source_Code_Pro/SourceCodePro-Medium.ttf');
+}
+
+@font-face {
+    font-family: Mukta;
+    src: url('../fonts/Mukta/Mukta-Medium.ttf');
+}

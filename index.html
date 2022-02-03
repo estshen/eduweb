@@ -1,0 +1,324 @@
+<!-- Citations -->
+
+<!-- [1]Y. Benlachheb, 'Responsive About us Section Using HTML & CSS', 2020. [Online]. Available: https://www.darkcode.info/2020/04/responsive-about-us-section-using-html.html. [Accessed: 10- Mar- 2021].-->
+<!-- [2]Y. Benlachheb, 'Full Screen Team Section Using Only HTML & CSS', 2020. [Online]. Available: https://www.darkcode.info/2020/04/full-screen-team-section-using-only.html. [Accessed: 10- Mar- 2021]. -->
+<!-- [3]Y. Benlachheb, 'Awesome Accordion Using HTML CSS & JQuery', 2020. [Online]. Available: https://www.darkcode.info/2020/02/awesome-accordion-using-html-css-jquery.html. [Accessed: 10- Mar- 2021]. -->
+<!-- [4]Y. Benlachheb, 'Awesome Hover Effect on Blog Posts Using HTML & CSS', 2020. [Online]. Available: https://www.darkcode.info/2020/07/awesome-hover-effect-on-blog-posts.html. [Accessed: 18- Mar- 2021]. -->
+<!-- [5]Y. Benlachheb, 'Responsive Contact Info Section Using HTML & CSS', 2020. [Online]. Available: https://www.darkcode.info/2019/10/responsive-contact-info-section-using.html. [Accessed: 21- Mar- 2021]. -->
+<!-- [6]Y. Benlachheb, 'Responsive gallery section Using HTML CSS & JS', 2019. [Online]. Available: https://www.darkcode.info/2019/03/responsive-gallery-section-using-html.html. [Accessed: 12- Mar- 2021].-->
+<!-- [7]A. Kashyap, 'Complete Responsive Blooger Website Using HTML/CSS', 2019. [Online]. Available: https://www.youtube.com/watch?v=CrSC1ZA9j0M. [Accessed: 21- Mar- 2021]. -->
+<!-- [8]fontawesome.com, 'Font Awesome Free License', 2018. [Online].Available: https://fontawesome.com/license/free. [Accessed: 28- Mar- 2021]. -->
+<!-- [9]developers.google.com/fonts, 'Google Fonts', 2021. [Online].Available: https://developers.google.com/fonts/faq. [Accessed: 28- Mar- 2021]. -->
+<!-- [10]D. Deutsch, 'Owl Carousel 2', 2019. [Source code]. https://github.com/OwlCarousel2/OwlCarousel2  -->
+<!-- [11]M. Sajnóg, 'Animate On Scroll Library', 2018. [Source code]. https://github.com/michalsnik/aos -->
+<!-- [12]jquery.com, 'jQuery', 2021. [Online].Available: https://jquery.com/download/. [Accessed: 20- Feb- 2021].-->
+<!-- [13]pexels.com, 'Legal Simplicity', 2021. [Online].Available: https://www.pexels.com/license/' [Accessed: 28- Mar- 2021]. -->
+
+<!--x-- Citations --x-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lite</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./stylesheets/all.css">
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./stylesheets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./stylesheets/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------>
+    <link rel="stylesheet" href="./stylesheets/aos.css">
+
+    <!-- Link stylesheets -->
+    <link rel="stylesheet" href="./stylesheets/style.css">
+
+    <!-- Link jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="index.html" class="text-gray">Lite</a>
+            </div>
+            <!-- Responsive toggle collapse for when viewing on mobile devices -->
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <!-- Navigation items on the top right corner -->
+            <div>
+                <ul class="nav-items">
+                    <!-- Navigate to home page -->
+                    <li class="nav-link">
+                        <a href="Index.html">Home</a>
+                    </li>
+                   <!-- Navigate to cities page -->
+                    <li class="nav-link">
+                        <a href="cities.html">Cities</a>
+                    </li>
+                    <!-- Navigate to art page -->
+                    <li class="nav-link">
+                        <a href="art.html">Art</a>
+                    </li>
+                    <!-- Navigate to food page -->
+                    <li class="nav-link">
+                        <a href="food.html">Food</a>
+                    </li>
+                    <!-- Navigate to about page -->
+                    <li class="nav-link">
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x--------------------->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+        <!------------------------ Site Title ---------------------->
+        <section class="site-title">
+            <!-- Uses Animate On Scroll's fade up feature -->
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Lite</h3>
+                <h1>A Safe Place to Share Stories </h1>
+                <!-- Join Us button with hover effect -->
+                <button class="btn">Join us</button>
+            </div>
+        </section>
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Post Carousels ----------------- -->
+
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <!-- Carousels using 'Owl Carousel 2' -->
+                    <!-- Implemented AOS fade right effect -->
+                    <div class="owl-carousel owl-theme blog-post">
+                        <!-- Shanghai Artware Stores -->
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/carousel/1.JPG" alt="Shanghai Artware Stores">
+                            <div class="blog-title">
+                                <h3>Shanghai Artware Stores: Aesthetics of Daily Life</h3>
+                                <button class="btn btn-blog">Read More</button>
+                                <span>5 minutes</span>
+                            </div>
+                        </div>
+                        <!-- Nanjing getaways -->
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/carousel/2.JPG" alt="Nanjing">
+                            <div class="blog-title">
+                                <h3>Nanjing: 5 Best Weekend Getaways in Jinling</h3>
+                                <button class="btn btn-blog">Read More</button>
+                                <span>3 minutes</span>
+                            </div>
+                        </div>
+                        <!-- Shanghai Cafe -->
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./assets/carousel/3.JPG" alt="Shanghai Cafés">
+                            <div class="blog-title">
+                                <h3>Café: Something Warm in a Cloudy Afternoon</h3>
+                                <button class="btn btn-blog">Read More</button>
+                                <span>4 minutes</span>
+                            </div>
+                        </div>
+                        <!-- Hangzhou workshop -->
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/carousel/4.JPG" alt="Hangzhou">
+                            <div class="blog-title">
+                                <h3>Hangzhou: Lanxuan Village Food Workshop</h3>
+                                <button class="btn btn-blog">Read More</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left and right arrows for navigating carousels, linked from Font Awesome -->
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-chevron-circle-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-chevron-circle-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        
+        
+        <!-- -------------------- Accordions ---------------- -->
+      
+        <div class="accordion">
+            <!-- Cities Accordion -->
+            <div class="accordion-item">
+            <div class="item-header">
+                <h1 class="title">Cities</h1>
+                <div class="icon">+</div>
+            </div>
+            <p class="accordion-text">
+                Cities like Atlanta and Houston. "We're doing a lot of what we did with the people in our city—a revitalization, an evolution," said San Diego Mayor Kevin Faulconer.    
+            </p>
+            </div>
+            <!-- Art Accordion -->
+            <div class="accordion-item">
+            <div class="item-header">
+                <h1 class="title">Art</h1>
+                <div class="icon">+</div>
+            </div>
+            <p class="accordion-text">
+                Artists: Andrew, Julian Berry, Sasha Blouse, Mark Bezels, Stella McClain, Tessa McGill. - A short interview with the editor about a series of interviews we did on this film around 2009 -2010 in London for iO8 magazine. 
+            </p>
+            </div>
+            
+            <!-- Food Accordion -->
+            <div class="accordion-item">
+            <div class="item-header">
+                <h1 class="title">Food</h1>
+                <div class="icon">+</div>
+            </div>
+            <p class="accordion-text">
+                Food & Wine: The St. Paul Food & Drink Show Hall in the downtown district offers a variety of food trucks including many that specialize primarily in fish and seafood offerings.
+            </p>
+            </div>
+            
+            <!-- About Accordion -->
+            <div class="accordion-item">
+            <div class="item-header">
+                <h1 class="title">About</h1>
+                <div class="icon">+</div>
+            </div>
+            <p class="accordion-text">
+                Meet our team of highly experienced and well-trained professionals that are dedicated to the work we do. Don't hesitate to let us know if you have any questions.
+            </p>
+            </div>
+        </div>
+
+        <!-- ----------x---------- Accordion --------x-------- -->
+
+
+        <!------------------------ Contact cards ---------------------->
+
+        <div class="contact-info">
+            <!-- Email card -->
+            <div class="card">
+                <i class="card-icon fas fa-at"></i>
+                <div class="card-content">
+                    <h3>Email</h3>
+                    <span>contact@lite.com</span>
+                </div>
+            </div>
+            <!-- Phone card -->
+            <div class="card">
+                <i class="card-icon fas fa-mobile-alt"></i>
+                <div class="card-content">
+                    <h3>Phone Number</h3>
+                    <span>+60339588</span>
+                </div>
+            </div>
+            <!-- Location card -->
+            <div class="card">
+                <i class="card-icon fas fa-map-marked-alt"></i>
+                <div class="card-content">
+                    <h3>Location</h3>
+                    <span>Shanghai, London, Tokyo</span>
+                </div>
+            </div>
+        </div>
+
+        <!------------x------------ Contact cards ----------x------------>  
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+    <footer class="footer">
+        <div class="container">
+            <!-- (Left) About us section -->
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About Us</h2>
+                <p>Meet our team of highly experienced and well-trained professionals that are dedicated to the work we do</p>
+            </div>
+            <!-- (Middle Left) Newsletter section -->
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Subscribe to take a peek into our latest events</p>
+                <div class="form-element">
+                    <input type="text" placeholder="username@email.com"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <!-- (Middle Right) Social media section -->
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Social Media</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/ins1.JPG" alt="Sydney street during sunsets">
+                    <img src="./assets/instagram/ins2.JPG" alt="Desk with a watch, necklace, lipstick, and a bottle of perfume">
+                    <img src="./assets/instagram/ins3.JPG" alt="Street view of Starbucks Coffee">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/ins4.JPG" alt="Living room with antique sofa and cupboards">
+                    <img src="./assets/instagram/ins5.JPG" alt="Dinning table with flowers">
+                    <img src="./assets/instagram/ins6.JPG" alt="Front desk of a coffee shop">
+                </div>
+            </div>
+             <!-- (Right) Contact us section -->
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Contact Us</h2>
+                <p>We can’t wait to connect with you!</p>
+                <!-- Icons from Font Awesome (facebook, twitter, instagram, youtube) -->
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright sectoin -->
+        <div class="rights flex-row">
+            <h4>
+                Copyright ©2021 All Rights Reserved
+            </h4>
+        </div>
+    </footer>
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+
+    <!-- Activate accordion items -->
+    <script type="text/javascript">
+        $(".item-header").click(function(){
+          $(".accordion-item").removeClass("active");
+          $(this).parent().addClass("active");
+          $(".icon").accordion-text("+");
+          $(this).children(".icon").accordion-text("-");
+        });
+      </script>
+    
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
