@@ -1,4 +1,4 @@
-main .site-title-food{
+main .site-title-recipes{
     background-size: cover;
     background-color: #7d4f50;
     height: 110vh;
@@ -6,23 +6,23 @@ main .site-title-food{
     justify-content: center;
 }
 
-main .site-title-food .site-background{
+main .site-title-recipes .site-background{
     padding-top: 10rem;
     text-align: center;
     color: #ffffff;
 }
 
-main .site-title-food h1, h3{
+main .site-title-recipes h1, h3{
     margin: .3rem;
 }
 
-main .site-title-food .btn:hover{
+main .site-title-recipes .btn:hover{
     background: transparent;
     border: 1px solid #ffffff;
     color: #ffffff;
 }
 
-/* ---------------------------------- Food page -------------------------------------- */
+/* ---------------------------------- Recipes page -------------------------------------- */
   
   .blog-posts{
     width: min(1200px, 100%);
@@ -46,7 +46,7 @@ main .site-title-food .btn:hover{
     transition: .3s linear;
   }
   
-  .food-post-content{
+  .recipes-post-content{
     background-color: #ffffffdd;
     margin: 0 20px;
     padding: 30px;
@@ -56,7 +56,7 @@ main .site-title-food .btn:hover{
     
   }
   
-  .food-post-contentt h3{
+  .recipes-post-contentt h3{
     font-size: 16px;
     margin-bottom: 10px;
   }
@@ -70,11 +70,11 @@ main .site-title-food .btn:hover{
     transform: translateY(20px);
   }
   
-  .post:hover .food-post-content{
+  .post:hover .recipes-post-content{
     transform: translateY(-80px);
   }
   
-/* ---------------x------- Food page ----------------------x----- */
+/* ---------------x------- Recipes page ----------------------x----- */
 
 
 /* ---------------------- Responsive settings --------------------------- */
