@@ -44,7 +44,7 @@ h2{
 }
 
 h3{
-    font-family: 'Orbitron', cursive;
+    font-family: 'Ubuntu', cursive;
     font-size: 1.3rem;
 }
 
@@ -93,7 +93,7 @@ p{
 }
 
 .nav-menu .nav-brand .text-gray{
-    font-family: 'Orbitron', cursive;
+    font-family: 'Ubuntu', cursive;
 
 }
 
@@ -129,7 +129,7 @@ p{
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
-    font-family: 'Orbitron', cursive;
+    font-family: 'Ubuntu', cursive;
     font-size: 1.1rem;
 }
 
