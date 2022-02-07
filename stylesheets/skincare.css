@@ -1,6 +1,6 @@
-/* ---------------------------------------- Cities page --------------------------------------- */
+/* ---------------------------------------- skincare page --------------------------------------- */
 
-main .site-title-cities{
+main .site-title-skincare{
     background-color: #7d4f50;
     background-size: cover;
     height: 110vh;
@@ -8,22 +8,22 @@ main .site-title-cities{
     justify-content: center;
 }
 
-main .site-title-cities .site-background{
+main .site-title-skincare .site-background{
     padding-top: 10rem;
     text-align: center;
     color: #ffffff;
 }
 
-main .site-title-cities h1, h3{
+main .site-title-skincare h1, h3{
     margin: .3rem;
 }
 
-main .site-title-cities .btn{
+main .site-title-skincare .btn{
     margin: 1.8rem;
     background: #997b66;
 }
 
-main .site-title-cities .btn:hover{
+main .site-title-skincare .btn:hover{
     background: transparent;
     border: 1px solid #ffffff;
     color: #ffffff;
@@ -182,6 +182,6 @@ main .post-content .post-title a{
 /* -------x------- Sidebar -----------x----------- */
 
 
-/* --------------------x-------------------- Cities page ------------------x--------------------- */
+/* --------------------x-------------------- skincare page ------------------x--------------------- */
 
 

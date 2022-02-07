@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   
-main .site-title-art{
+main .site-title-lifestyle{
     background: url('../assets/background-image-art.jpg');
     background-size: cover;
     height: 110vh;
@@ -10,22 +10,22 @@ main .site-title-art{
     justify-content: center;
 }
 
-main .site-title-art .site-background{
+main .site-title-lifestyle .site-background{
     padding-top: 10rem;
     text-align: center;
     color: #ffffff;
 }
 
-main .site-title-art h1, h3{
+main .site-title-lifestyle h1, h3{
     margin: .3rem;
 }
 
-main .site-title-art .btn{
+main .site-title-lifestyle .btn{
     margin: 1.8rem;
     background: #997b66;
 }
 
-main .site-title-art .btn:hover{
+main .site-title-lifestyle .btn:hover{
     background: transparent;
     border: 1px solid #ffffff;
     color: #ffffff;
