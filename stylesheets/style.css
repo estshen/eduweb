@@ -418,15 +418,19 @@ footer.footer .newsletter .form-element input{
     border: none;
     background: transparent;
     color: #ffffff;
-    font-family: 'Sourcecode', cursive;
+    /* font-family: 'Sourcecode', cursive; */
+    font-family: 'Raleway', cursive;
     font-size: 1rem;
     width: 74%;
 }
 
 footer.footer .newsletter .form-element span{
-    background: #997b66;
-    padding: .5rem 1rem;
+    /* background: #997b66;
+    padding: .5rem 1rem; */
     cursor: pointer;
+}
+footer.footer .newsletter .form-element i{
+    color: #ffffff;
 }
 
 footer.footer .instagram div > img{
