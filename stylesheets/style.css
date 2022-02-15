@@ -443,6 +443,7 @@ footer.footer .instagram div > img{
 footer.footer .follow div i{
     color: #ffffff;
     padding: 0 .4rem;
+    cursor: pointer;
 }
 
 footer.footer .rights{
