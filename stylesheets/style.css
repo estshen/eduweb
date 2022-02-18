@@ -79,7 +79,7 @@ p{
 /* --------------- Navigation ----------------- */
 
 .nav{
-    background: #ffffff;
+    background: #7d4f50;
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -94,6 +94,8 @@ p{
 
 .nav-menu .nav-brand .text-gray{
     font-family: 'Ubuntu', cursive;
+    color: #ffffff;
+
 
 }
 
@@ -123,6 +125,12 @@ p{
 .nav .nav-items{
     display: flex;
     margin: 0;
+    
+}
+
+.nav .nav-items a{
+    color: #ffffff;
+
 }
 
 .nav .nav-items .nav-link{
@@ -131,6 +139,7 @@ p{
     position: relative;
     font-family: 'Ubuntu', cursive;
     font-size: 1.1rem;
+
 }
 
 .nav .nav-items .nav-link:hover{
@@ -147,6 +156,7 @@ p{
     display: block;
     font-family: 'Raleway', cursive;
     font-size: 1.6rem;
+    
 }
 
 /* -------x------- Navigation ---------x------- */
