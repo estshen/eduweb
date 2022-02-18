@@ -12,6 +12,7 @@
 
 main .site-title-lifestyle{
     background: url('../assets/background-image-art.jpg');
+    background-color: var(--bg-color);
     background-size: cover;
     height: 110vh;
     display: flex;
