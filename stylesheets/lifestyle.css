@@ -2,6 +2,14 @@
     box-sizing: border-box;
   }
   
+/* navigation */
+.nav .nav-items .nav-life{
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  padding-bottom: 6px;
+}
+/* end of navigation */
+
 main .site-title-lifestyle{
     background: url('../assets/background-image-art.jpg');
     background-size: cover;

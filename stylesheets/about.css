@@ -1,3 +1,11 @@
+/* navigation */
+.nav .nav-items .nav-about{
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    padding-bottom: 6px;
+  }
+  /* end of navigation */
+
 main .site-title-about{
     /* background: url('../assets/background-image-about.jpeg'); */
     background-color: var( --bg-color);
