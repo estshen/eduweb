@@ -96,7 +96,6 @@ p{
     font-family: 'Ubuntu', cursive;
     color: #ffffff;
 
-
 }
 
 .nav .toggle-collapse{
@@ -171,7 +170,7 @@ main .site-title{
     background-size: cover;
     background-color: var( --bg-color);
 
-    height: 110vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
 
@@ -209,6 +208,7 @@ main .blog{
     height: 100vh;
     width: 100%;
     background-size: 65%;
+
 }
 
 main .blog .blog-post{

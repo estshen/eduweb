@@ -11,10 +11,10 @@
 /* end of navigation */
 
 main .site-title-lifestyle{
-    background: url('../assets/background-image-art.jpg');
+    /* background: url('../assets/background-image-art.jpg'); */
     background-color: var(--bg-color);
     background-size: cover;
-    height: 110vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
 }
@@ -40,10 +40,20 @@ main .site-title-lifestyle .btn:hover{
     color: #ffffff;
 }
 
+/* .site-mid-bg{
+    background: url('../assets/background-image-art.jpg');
+    background-color: var(--bg-color);
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+} */
+
+
 .gallery-section{
   width: 100%;
   padding: 60px 0;
-  background: #f1f1f1;
+  background: var(--bg-color);
 }
 
 .inner-width{
@@ -55,7 +65,11 @@ main .site-title-lifestyle .btn:hover{
 
 .gallery-section h1{
   text-align: center;
-  color: #333;
+  color: #ffffff;
+}
+
+.gallery-section p{
+  color: #ffffff;
 }
 
 .gallery-section .gallery{
