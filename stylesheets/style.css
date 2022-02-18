@@ -167,17 +167,21 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/background-image.jpeg');
+    /* background: url('../assets/background-image.jpeg'); */
     background-size: cover;
+    background-color: var( --bg-color);
+
     height: 110vh;
     display: flex;
     justify-content: center;
+
 }
 
 main .site-title .site-background{
     padding-top: 10rem;
     text-align: center;
     color: #ffffff;
+
 }
 
 main .site-title h1, h3{
