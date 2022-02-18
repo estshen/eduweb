@@ -1,5 +1,6 @@
 main .site-title-about{
-    background: url('../assets/background-image-about.jpeg');
+    /* background: url('../assets/background-image-about.jpeg'); */
+    background-color: var( --bg-color);
     background-size: cover;
     height: 110vh;
     display: flex;
