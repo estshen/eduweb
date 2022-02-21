@@ -12,7 +12,8 @@ body{
 
     /*   Colour Scheme   */
     --text-gray: #54494b;
-    --text-light : #997b66;
+    /* --text-light : #997b66; */
+    --text-light : #af8f77;
     --bg-color: #7d4f50;
     --title-text: #997b66;
 }
@@ -72,6 +73,8 @@ span{
 p{
     font-family: 'Raleway', cursive;
     color: var(--text-light);
+    font-weight: 500;
+
 }
 
 /* ------x------- Global, apply to all -------x-------*/
